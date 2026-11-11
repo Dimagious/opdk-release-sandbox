@@ -1,0 +1,14 @@
+name: Pages
+
+on:
+  push:
+    tags: ['*.*.*']
+
+permissions:
+  contents: read
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo pages

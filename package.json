@@ -11,7 +11,7 @@
   "devDependencies": {
     "eslint": "^10.14.0",
     "obsidian": "1.14.4",
-    "obsidian-plugin-dev-kit": "github:Dimagious/obsidian-plugin-dev-kit#e01e52316243398232eefc7300b9849b1bcd04e5",
+    "obsidian-plugin-dev-kit": "github:Dimagious/obsidian-plugin-dev-kit#4f207a9201caec5408b1ecbbd2229509d49eff50",
     "typescript": "^5.6.0"
   }
 }
