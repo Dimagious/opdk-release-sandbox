@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Nothing real: a patch release to interrupt and resume.
+
 ## [0.2.0] - 2026-11-11
 
 ### Changed
