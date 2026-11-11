@@ -1,6 +1,6 @@
 {
   "name": "opdk-sandbox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Test fixture for the release automation of obsidian-plugin-dev-kit.",
   "private": true,
   "type": "module",
