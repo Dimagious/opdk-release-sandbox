@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-11-11
+
 ### Fixed
 
 - Nothing real: a patch release to interrupt and resume.

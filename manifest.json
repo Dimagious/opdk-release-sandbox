@@ -1,7 +1,7 @@
 {
   "id": "opdk-sandbox",
   "name": "Opdk Sandbox",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "minAppVersion": "1.5.0",
   "description": "Test fixture for the release automation of a plugin dev kit. Not a real plugin.",
   "author": "Dimagious",
