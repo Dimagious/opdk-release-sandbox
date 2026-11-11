@@ -1,0 +1,16 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  kit:
+    uses: Dimagious/obsidian-plugin-dev-kit/.github/workflows/plugin-ci.yml@0da5ea85d9fe25c8082f4c2a758eea0c12ecf3a9
