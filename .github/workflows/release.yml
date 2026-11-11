@@ -1,0 +1,14 @@
+name: Release
+
+on:
+  push:
+    tags: ['*.*.*']
+
+permissions:
+  contents: write
+  id-token: write
+  attestations: write
+
+jobs:
+  release:
+    uses: Dimagious/obsidian-plugin-dev-kit/.github/workflows/release.yml@37601fe7fb203e76d22749e7d786e406b09df9f9

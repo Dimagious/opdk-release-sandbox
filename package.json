@@ -1,0 +1,17 @@
+{
+  "name": "opdk-sandbox",
+  "version": "0.1.0",
+  "description": "Test fixture for the release automation of obsidian-plugin-dev-kit.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "opdk build"
+  },
+  "devDependencies": {
+    "eslint": "^10.14.0",
+    "obsidian": "1.14.4",
+    "obsidian-plugin-dev-kit": "github:Dimagious/obsidian-plugin-dev-kit#37601fe7fb203e76d22749e7d786e406b09df9f9",
+    "typescript": "^5.6.0"
+  }
+}
