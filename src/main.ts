@@ -12,3 +12,5 @@ export default class OpdkSandboxPlugin extends Plugin {
         });
     }
 }
+
+const unused = 1;
