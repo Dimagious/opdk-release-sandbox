@@ -7,8 +7,6 @@
   "license": "MIT",
   "scripts": {
     "build": "opdk build",
-    "lint": "eslint . --max-warnings=0",
-    "typecheck": "tsc --noEmit",
     "test": "node --test"
   },
   "devDependencies": {
