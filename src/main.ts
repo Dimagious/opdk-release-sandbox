@@ -7,7 +7,7 @@ export default class OpdkSandboxPlugin extends Plugin {
             id: "say-hello",
             name: "Say hello",
             callback: () => {
-                new Notice("Hello from the release sandbox.");
+                new Notice("Hello again from the release sandbox.");
             },
         });
     }

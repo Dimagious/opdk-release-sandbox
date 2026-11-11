@@ -11,4 +11,4 @@ permissions:
 
 jobs:
   release:
-    uses: Dimagious/obsidian-plugin-dev-kit/.github/workflows/release.yml@37601fe7fb203e76d22749e7d786e406b09df9f9
+    uses: Dimagious/obsidian-plugin-dev-kit/.github/workflows/release.yml@e01e52316243398232eefc7300b9849b1bcd04e5
