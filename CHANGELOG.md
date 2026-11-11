@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-11
+
 ### Changed
 
 - The command text says hello from the sandbox, to prove a second release.
