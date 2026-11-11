@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Nothing real: a release whose branch moved on before the tag was pushed.
+
 ## [0.2.1] - 2026-11-11
 
 ### Fixed
