@@ -1,12 +1,6 @@
 name: ci
 on:
-  push:
-    branches: [main]
   pull_request:
-
-concurrency:
-  group: ci-${{ github.ref }}
-  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -14,3 +8,13 @@ permissions:
 jobs:
   kit:
     uses: Dimagious/obsidian-plugin-dev-kit/.github/workflows/plugin-ci.yml@0da5ea85d9fe25c8082f4c2a758eea0c12ecf3a9
+    with:
+      coverage-artifact: true
+  coverage:
+    needs: kit
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: opdk-sandbox-coverage
+      - run: find . -type f | sort

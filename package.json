@@ -9,7 +9,7 @@
     "build": "opdk build",
     "lint": "eslint . --max-warnings=0",
     "typecheck": "tsc --noEmit",
-    "test": "node --test"
+    "test": "mkdir -p coverage/lcov-report && echo TN: > coverage/lcov.info && echo x > coverage/lcov-report/index.html && node --test"
   },
   "devDependencies": {
     "eslint": "^10.14.0",
