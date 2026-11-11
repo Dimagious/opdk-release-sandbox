@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Nothing real: a release resumed after the branch push was rejected.
+
 ## [0.2.2] - 2026-11-11
 
 ### Fixed
